@@ -1947,8 +1947,7 @@ svg {
   }
 
   .command-strip {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    margin: 0 14px;
+    display: none;
   }
 
   .content {
@@ -2017,14 +2016,6 @@ svg {
   .top-actions .primary-button,
   .top-actions .ghost-button {
     width: 100%;
-  }
-
-  .command-strip {
-    grid-template-columns: 1fr;
-  }
-
-  .command-strip span {
-    justify-content: flex-start;
   }
 
   .dashboard-hero {
