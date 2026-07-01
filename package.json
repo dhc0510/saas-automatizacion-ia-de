@@ -1,0 +1,12 @@
+﻿{
+    "name":  "novadesk-ai-demo",
+    "version":  "1.0.0",
+    "private":  true,
+    "type":  "module",
+    "description":  "Demo visual SaaS local para automatizacion de atencion al cliente con IA.",
+    "scripts":  {
+                    "dev":  "python -m http.server 5173",
+                    "start":  "python -m http.server 5173"
+                }
+}
+

@@ -1,0 +1,14 @@
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Generated preview and QA artifacts
+screenshot-*.png
+render-demo-brief/
+render-demo-brief-word/
+*.pdf
+
+# Local/editor files
+.vscode/
+.idea/
+*.log
